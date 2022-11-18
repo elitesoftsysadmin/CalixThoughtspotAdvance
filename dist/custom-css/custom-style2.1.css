@@ -1,0 +1,95 @@
+/* Font-family */
+
+/* @font-face {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(font/SourceSansPro-Regular.ttf) format('ttf');
+
+}
+
+*/
+/* 
+@font-face {
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(font/SourceSansPro-ExtraLight.ttf) format('ttf');
+    */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+.kpi-module__hero {
+    font-variant-ligatures: none;
+
+    padding-top: 4px;
+    margin-right: 12px;
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    line-height: 32px !important;
+    color: #0279ff;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.bk-title-description .bk-title-section .bk-title {
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    color: #4c4c4c !important;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 7px !important;
+}
+
+.headline-viz-module__pinboardTileMode.headline-viz-module__numberType .headline-viz-module__aggregationValue {
+    padding-top: 0;
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    line-height: 32px !important;
+    color: #0054B2;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.bk-pinboard-data-viz {
+    box-shadow: none !important;
+    border-left: 1px solid #EBEAEF !important;
+    padding: 5px 10px !important;
+}
+
+.tile-container {
+    margin: 0px !important;
+}
+
+.bk-pinboard-data-viz .bk-pinboard-viz-header {
+    flex-basis: 26px !important;
+    -webkit-flex-basis: 26px !important;
+}
+
+.tile-container .tile-size-xs {
+    width: 24.25%;
+    height: 85px !important;
+}
+
+
+.tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tile-container li,
+.ribbon-item {
+    display: none !important;
+}
+
+.bk-pinboard-tile {
+    flex: 0 24%;
+    height: 85px !important;
+    margin-bottom: 24px;
+    position: relative !important;
+    left: 0% !important;
+    top: 0% !important;
+
+    /* (100-32*3)/2 */
+}
