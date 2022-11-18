@@ -32,7 +32,7 @@
     color: #0279ff;
     font-family: "Source Sans Pro", sans-serif;
 }
-
+/* 
 .bk-title-description .bk-title-section .bk-title {
     font-weight: 300 !important;
     font-size: 13px !important;
@@ -91,5 +91,4 @@
     left: 0% !important;
     top: 0% !important;
 
-    /* (100-32*3)/2 */
-}
+    */
